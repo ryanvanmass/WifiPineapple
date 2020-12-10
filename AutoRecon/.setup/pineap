@@ -1,0 +1,23 @@
+
+config config
+	option karma 'off'
+	option beacon_interval 'NORMAL'
+	option beacon_response_interval 'NORMAL'
+	option beacon_responses 'off'
+	option broadcast_ssid_pool 'off'
+	option connect_notifications 'off'
+	option disconnect_notifications 'off'
+	option ap_channel '11'
+	option target_mac 'FF:FF:FF:FF:FF:FF'
+	option pineap_interface 'wlan1mon'
+	option hostapd_db_path '/tmp/log.db'
+	option ssid_db_path '/etc/pineapple/pineapple.db'
+	option pineape_passthrough 'off'
+	option mac_filter 'white'
+	option ssid_filter 'white'
+	option logging 'on'
+	option autostart '1'
+	option recon_db_path '/sd/LOOT/recon.db'
+	option capture_ssids 'off'
+	option pineap_mac '00:C0:CA:A9:85:9F'
+
